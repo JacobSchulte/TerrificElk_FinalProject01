@@ -31,6 +31,7 @@ def main():
     encrypted_numbers = ["7480", "28894", "8018", "42049", "46049", "7487", "18797", "28898", "10953", "31563", "28799", "10355", "2756", "23887", "30997", "42547", "5209", "42686", "14761", "38919"]
 
     # Encrypted movie title and key
+    # We used CompleteDuck's key because Bill was at a football game
     encrypted_movie_title = 'gAAAAABnJ6xXc8WnJ2DxuUMI3yz9g4ZaGNGUd6TPU96o-rmP1YfrxSq387RxZtyEt2Hc1WNWXcsUaz5oWJGd_W7Gs6wNXMoDG7bnwSawyeXVmuNEP88HlA8='
     key = b'WVRqW7wUIQ1mgbz5PAonHGJn-XknVdDV74L_RNFjU0o='
 
