@@ -24,6 +24,9 @@
     <Compile Include="buildingdecryptorPackage\buildingdecryptor.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="JSONreaderPackage\JSONreader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
     <Compile Include="moviedecryptorPackage\moviedecryptor.py">
       <SubType>Code</SubType>
@@ -37,6 +40,7 @@
     <Folder Include="buildingdecryptorPackage\" />
     <Folder Include="data\" />
     <Folder Include="moviedecryptorPackage\" />
+    <Folder Include="JSONreaderPackage\" />
     <Folder Include="photoimportPackage\" />
   </ItemGroup>
   <ItemGroup>
