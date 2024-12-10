@@ -1,0 +1,57 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>04efc75d-bee9-4ac3-81ca-36d5c3ac9eda</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>mainPackage\main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TerrificElk_FinalProject01</Name>
+    <RootNamespace>TerrificElk_FinalProject01</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="buildingdecryptorPackage\buildingdecryptor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mainPackage\main.py" />
+    <Compile Include="moviedecryptorPackage\moviedecryptor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="photoimportPackage\photoimport.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="mainPackage\" />
+    <Folder Include="buildingdecryptorPackage\" />
+    <Folder Include="data\" />
+    <Folder Include="moviedecryptorPackage\" />
+    <Folder Include="photoimportPackage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\EncryptedGroupHints Fall 2024 Section 001.json" />
+    <Content Include="data\FinalProjectImage.jpeg" />
+    <Content Include="data\TeamsAndEncryptedMessagesForDistribution.json" />
+    <Content Include="data\UCEnglish.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

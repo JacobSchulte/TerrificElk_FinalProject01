@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TerrificElk_FinalProject01", "TerrificElk_FinalProject01\TerrificElk_FinalProject01.pyproj", "{04EFC75D-BEE9-4AC3-81CA-36D5C3AC9EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04EFC75D-BEE9-4AC3-81CA-36D5C3AC9EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EFC75D-BEE9-4AC3-81CA-36D5C3AC9EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0675E88-9F0C-4BFD-A8A3-8B7718430A31}
+	EndGlobalSection
+EndGlobal
